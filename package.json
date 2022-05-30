@@ -6,7 +6,7 @@
     "start": "ng serve --ssl --ssl-cert %APPDATA%\\ASP.NET\\https\\%npm_package_name%.pem --ssl-key %APPDATA%\\ASP.NET\\https\\%npm_package_name%.key",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "buildocs": "ng build --base-href /angularApp1/ --baseHref /angularApp1/ --configuration production",
+    "buildocs": "ng build --base-href /angularApp1/ --configuration production",
     "test": "ng test",
     "prestart": "node aspnetcore-https"
   },
